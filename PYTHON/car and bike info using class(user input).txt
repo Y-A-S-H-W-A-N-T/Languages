@@ -1,0 +1,21 @@
+def vehicles():
+    b=str(input('enter:'))
+    class car:
+        def info(self):
+            print('bmw \naudi')
+    
+    class bike:
+        def info(self):
+            print('pulsar \nsuzuki')
+        
+    a=car()
+    c=bike()
+    if b=='car':
+        a.info()
+    elif b=='bike':
+        c.info()    
+    else:
+        print('enter "car" or "bike"')
+        
+    vehicles()
+vehicles()        

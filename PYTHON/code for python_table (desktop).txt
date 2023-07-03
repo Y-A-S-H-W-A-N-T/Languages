@@ -1,0 +1,11 @@
+from os import * 
+def table():
+    system('cls')
+    a=int(input('ENTER:'))
+    for i in range(0,11):
+        print(a,'X',i,'=',i*a) 
+    print('press enter to continue.......')
+    b=input(' ')
+    table()
+    system('cls')
+table()

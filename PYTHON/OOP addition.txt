@@ -1,0 +1,10 @@
+class imp:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+        
+    def info(self):
+        print(self.a,self.b,'\n',self.a+self.b)
+        
+a=imp(5,10)
+a.info()

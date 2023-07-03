@@ -1,0 +1,12 @@
+a=int(input(" "))
+b=int(input(" "))
+class imp:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+        
+    def add(self):
+        print("sum is:",self.a+self.b)
+    
+a1=imp(a,b)
+a1.add()

@@ -1,0 +1,21 @@
+class audi:
+    def b(self):
+        print('2000')
+class bmw:
+    def b(self):
+        print('3000')
+class swift:
+    def b(self):
+        print('2000')
+class car:
+    def code(self,a):
+        a.b()
+
+audi=audi()
+bmw=bmw()
+swift=swift()
+a4=car()
+a4.code(swift)
+
+      
+        s

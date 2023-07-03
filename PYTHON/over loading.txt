@@ -1,0 +1,15 @@
+class car:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def __add__(self,p):
+        p1=self.a + p.a
+        p2=self.b + p.b
+        p3=car(p1,p2)
+        return p3
+
+a1=car(37,49)
+a2=car(30,28)
+
+a3=a1+a2
+print(a3.a)        

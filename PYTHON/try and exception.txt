@@ -1,0 +1,11 @@
+
+try:
+    a=int(input('enter a number:'))
+    b=10/a
+    if a>=5:
+       print(b)
+   
+except Exception:
+    print('error')
+finally:
+    print('over')

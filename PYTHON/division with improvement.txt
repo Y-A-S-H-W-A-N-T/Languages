@@ -1,0 +1,12 @@
+x=int(input('enter a number:'))
+y=int(input('enter a number:'))  
+
+def div(a,b):      
+    if a>b:
+        print(a/b)
+    else:
+        a,b=b,a
+        print(a/b)
+        
+div(x,y)
+  

@@ -1,0 +1,31 @@
+class student:
+    school="DLSK"
+    
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+        self.lap=self.laptop()
+    
+    def info(self):
+        print(self.a,self.b)
+        self.lap.info()
+        
+    class laptop:
+        
+        def __init__(self):
+            self.name="dell"
+            self.model="hp"
+            
+        def info(self):
+            print(self.name,self.model)
+        
+            
+a1=student('spidy',40)
+a2=student('hello',3)
+
+a1.info()
+
+
+
+
+       

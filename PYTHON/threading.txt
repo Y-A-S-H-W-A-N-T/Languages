@@ -1,0 +1,20 @@
+from time import *
+from threading import *
+class hello(Thread):
+    def run(self): # name the def func "run" for threading
+        for i in range(10):
+            sleep(1)
+            print('hey')
+            sleep(1)
+class hi(Thread):
+    def run(self): # name the def func "run" for threading
+        for i in range(10):
+            sleep(1)
+            print('haha')
+            sleep(1)
+
+a=hello()
+b=hi()
+a.start() #"start()" is function to start thread
+sleep(1)
+b.start() #"start()" is function to start thread

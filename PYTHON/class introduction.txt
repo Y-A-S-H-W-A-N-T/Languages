@@ -1,0 +1,8 @@
+class computer:
+    def hello(self):
+        print("hello \n\n\n\n bye")
+        
+a=computer()
+
+computer.hello(a)     
+a.hello()   

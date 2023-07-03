@@ -1,0 +1,10 @@
+class computer:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def config(self):
+        print("the config is:",self.a,self.b)
+    
+com=computer("dell",4)
+com.config()
+        

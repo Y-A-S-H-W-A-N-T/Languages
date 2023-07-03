@@ -1,0 +1,17 @@
+c=int(input('Enter the nummber to find:'))
+pos=0
+def find(a,b):
+   i=0
+   for i in range(len(a)): 
+       if b==a[i]:
+           globals() ['pos']=i
+           return True
+   else:
+       return False
+a=[9,3,5,6,8,6,3,7,4]
+b=c
+if find(a,b):
+    print("found",pos+1)
+else:
+    print("not found")
+        

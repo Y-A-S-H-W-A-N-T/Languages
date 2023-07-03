@@ -1,0 +1,25 @@
+class A:
+    def __init__(self):
+        print('hello 0')
+    
+    def feat1(self):
+        print('hello 1')
+    
+    def feat2(self):
+        print('hello 2')
+        
+class B(A):
+    def __init__(self):
+        super().__init__()
+        print('hello 3')
+    
+    def feat1(self):
+        super().feat1()
+        print('hello 4')
+    
+    def feat2(self):
+        print('hello 5')
+        
+        
+a=B()
+a.feat1()

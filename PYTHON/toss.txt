@@ -1,0 +1,15 @@
+import random
+def toss():
+    a=['heads','tails']
+    coin=random.choice(a)
+
+    b=str(input('enter:'))
+    if b==coin:
+        print('win',coin)
+    else:
+        print('lose',coin)
+        
+    toss()
+    
+toss()
+    

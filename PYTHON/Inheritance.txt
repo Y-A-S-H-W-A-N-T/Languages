@@ -1,0 +1,32 @@
+class A:
+    def feature(self):
+        print('hello')
+    
+    def feature1(self):
+        print('hello1')
+
+class B(A):
+    def feature3(self):
+        print('hello')
+    
+    def feature4(self):
+        print('hello1')
+        
+class C(B):
+    def hello(self):
+        print('*')        
+    
+
+a1=A()
+
+a1.feature()
+a1.feature1()   
+
+a2=B()
+
+a2.feature3()
+a2.feature4()
+
+a3=C()
+
+a3.hello()

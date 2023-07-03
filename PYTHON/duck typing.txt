@@ -1,0 +1,21 @@
+class pycharm:
+    def execute(self):
+        print("hello")
+
+class spyder:
+    def execute(self):
+        print("bye")
+  
+class jupyter:
+    def execute(self):
+        print("wait")
+         
+class laptop:
+    def code(self,a):
+        a.execute()
+        
+ide1=pycharm()
+ide2=spyder()
+ide3=jupyter()
+a=laptop()
+a.code(ide3)

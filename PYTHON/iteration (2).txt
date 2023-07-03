@@ -1,0 +1,18 @@
+class abc:
+    def __init__(self):
+        self.a=1
+        
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        b=self.a
+        self.a+=1
+        if b>10:
+            raise StopIteration
+        return b
+        
+    
+a1=abc()
+for i in a1:
+    print(i)
