@@ -1,0 +1,8 @@
+function error(){
+    var name=document.getElementById("name");
+    var address=document.getElementById("address");
+    if (name.value=="" || address.value==""){
+        alert("INSERT NAME");
+        return false;
+    }
+}

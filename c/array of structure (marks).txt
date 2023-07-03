@@ -1,0 +1,21 @@
+#include <stdio.h>
+struct info
+{
+    int no;
+    char name[20];
+    int marks;
+};
+void main()
+{
+    int i;
+    struct info a[2];
+    for(i=0;i<2;i++)
+    {
+        scanf("%d%s%d",&a[i].no,a[i].name,&a[i].marks);
+    }
+    for(i=0;i<2;i++)
+    {
+        printf("the number is:%d\nName of the student:%s\nMarks:%d/10\n\n\n\n",a[i].no,a[i].name,a[i].marks);
+    }
+
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char a[10];
+    int i,l=0;
+    printf("enter your name:");
+    gets(a);
+    for(i=0;a[i]!='\0';i++)
+    {
+        l++;
+    }
+    printf("the size of the name is:%d",l);
+
+}

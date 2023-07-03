@@ -1,0 +1,8 @@
+function test(a,b){
+    var c=a+b;
+    return c;
+}
+
+ var result=test(2,2)
+document.write(result);
+document.write(test(2,5));

@@ -1,0 +1,11 @@
+function method(){
+    var heading=document.createElement("h1");
+    var head=document.createTextNode(" new paragraph ");
+    var main=document.getElementById("main");
+    main.appendChild(heading);
+    heading.appendChild(head);
+    var newelement=document.createElement("p");
+    main.appendChild(newelement);
+    var text=document.createTextNode("00000000000000000 afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da");
+    newelement.appendChild(text);
+}

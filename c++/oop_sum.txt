@@ -1,0 +1,24 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+class car{
+public:
+    int a,b;
+    void print()
+    {
+        cout<<"enter a number:";
+        cin>>a;
+        cout<<"enter a number:";
+        cin>>b;
+        system("cls");
+        cout<<"sum of "<<a<<" and "<<b<<" is = "<<a+b<<endl;
+    }
+};
+int main()
+{
+    car x;
+    x.print();
+    getch();
+    main();
+    return 0;
+}

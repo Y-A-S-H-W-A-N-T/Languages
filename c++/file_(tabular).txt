@@ -1,0 +1,15 @@
+#include<iostream>
+#include<fstream>s
+using namespace std;
+int main()
+{
+   int n1,n2;
+   string b;
+   ifstream a("create.txt");
+   while(a>>n1>>b>>n2)
+   {
+       cout<<n1<<"|"<<b<<"|"<<n2<<"\n";
+   }
+   cin.get();
+   return 0;
+}

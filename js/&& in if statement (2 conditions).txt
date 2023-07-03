@@ -1,0 +1,16 @@
+function test(name,marks){
+    if (marks>=0 && marks<=15){
+            document.write("failed");
+    }
+    else if (marks>15 && marks<=39){
+        document.write(name," ->Grade : C and marks:"+ marks);
+    }
+    else if (marks>=40 && marks<=100){
+        document.write(name," -> Grade :A and marks:"+ marks);
+    }
+    else{
+        document.write("Marks is not correct");
+    }   
+}
+
+test("yashwant",40)

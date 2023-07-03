@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+class first
+{
+    public:
+        void set(int x,int y)
+        {
+            a=x;
+            b=y;
+        }
+        virtual int add()
+        {
+            return (a+b);
+        }
+    protected:
+        int a,b;
+};
+class second:public first
+{
+public:
+    int add()
+    {
+        return (a+b);
+    }
+};
+class third:public first
+{
+public:
+    int add()
+    {
+        return (a+b);
+    }
+};
+int main()
+{
+    second a;
+    third b;
+    first c;
+    first *x=&a;
+    first *y=&b;
+    first *z=&c;
+    x->set(2,2);
+    y->set(2,3);
+    z->set(3,4);
+    cout<<a.add()<<endl;
+    cout<<b.add()<<endl;
+    cout<<c.add()<<endl;
+    return 0;
+}

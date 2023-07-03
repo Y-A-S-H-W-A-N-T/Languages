@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    char a;
+    FILE *b=fopen("E:\\a.txt","r");
+    if(b==NULL)
+    {
+        printf("error");
+    }
+    while(1)
+    {
+        a=fgetc(b);
+        if(a==EOF)
+        {
+            break;
+        }
+        else
+        {
+            printf("%c",a);
+        }
+    }
+}

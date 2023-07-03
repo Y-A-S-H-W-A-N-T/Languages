@@ -1,0 +1,10 @@
+function error(){
+    var name=document.getElementById("name");
+    var address=document.getElementById("address");
+    if (name.value.length<8 || address.value.length<8){
+        alert("INPUT IS LESS THAN 8 CHARACTERS");
+        name.focus();
+        name.style.border="red 5px solid"
+        return false;
+    }
+}

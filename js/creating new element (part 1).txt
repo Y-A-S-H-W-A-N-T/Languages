@@ -1,0 +1,28 @@
+function method(){
+    var newelement=document.createElement("p");
+    var main=document.getElementById("main");
+    main.appendChild(newelement);
+    var text=document.createTextNode("00000000000000000 afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da");
+    newelement.appendChild(text);
+}
+
+|||| HTML |||
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HOME PAGE</title>
+    <script src="javascript.js">
+
+    </script>
+</head>
+<body>
+    <div id="main">
+        <p>aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk </p>
+        <p> aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk </p>
+    
+    </div>
+    
+    <button onclick="method()">CLICK</button>
+</body>
+</html>

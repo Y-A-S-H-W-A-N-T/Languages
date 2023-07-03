@@ -1,0 +1,26 @@
+#include<iostream>
+#include<exception>
+using namespace std;
+template<class tem>
+class news{
+public:
+    news(tem x)
+    {
+        cout<<x<<" is not a integer."<<endl;
+    }
+};
+template<>
+class news<int>{
+public:
+    news(int x)
+    {
+        cout<<x<<" is a integer."<<endl;
+    }
+};
+int main()
+{
+   news<int> obj1(34);
+   news<float> obj2(34.34);
+   news<char> obj3('A');
+   return 0;
+}

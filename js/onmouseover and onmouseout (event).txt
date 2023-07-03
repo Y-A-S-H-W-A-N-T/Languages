@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HOME PAGE</title>
+    <script src="javascript.js">
+
+    </script>
+</head>
+<body>
+    <p class="paragraph" id="color" onmouseover="changebgcolor()" onmouseout="bringcolor()">HELLO</p>
+</body>
+</html>
+
+||| HTML |||
+
+function changebgcolor(){
+var change= document.getElementById("color").style.backgroundColor="blue";
+}
+function bringcolor(){
+    var change= document.getElementById("color").style.backgroundColor="";
+}

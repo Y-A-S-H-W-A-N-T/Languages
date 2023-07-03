@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,c;
+    printf("ENTER A NUMBER:");
+    scanf("%d",&n);
+    c=fact(n);
+    printf("result:%d",c);
+}
+int fact (int n)
+{
+    int c;
+    if(n==0)
+    {
+        c=1;
+    }
+    else
+    {
+        c=n*fact(n-1);
+    }
+    return c;
+}

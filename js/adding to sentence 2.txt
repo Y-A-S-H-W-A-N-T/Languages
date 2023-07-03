@@ -1,0 +1,29 @@
+function clicked(){
+    var word=document.getElementsByClassName("para");
+    var change1=word[0].innerHTML;
+    var change2=word[1].innerHTML;
+    var sum=word[2].innerHTML= change1 + change2;
+    var change1=word[0].innerHTML=" ";
+    var change2=word[1].innerHTML=" ";
+    document.getElementById("button").style.visibility="hidden";
+}
+
+|||| HTML ||||
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HOME PAGE</title>
+    <script src="javascript.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="cssfile.css">
+</head>
+<body>
+    <div>
+        <p class="para"> Hello</p>
+        <p class="para"> World</p>
+        <p class="para"> </p>
+    </div>
+    <button id="button" onclick="clicked()">CLICK</button>
+</body>
+</html>

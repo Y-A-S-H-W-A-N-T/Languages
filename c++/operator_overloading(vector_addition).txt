@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+class vector{
+public:
+    int a,b;
+    vector (){};
+    vector (int x,int y)
+    {
+        a=x;
+        b=y;
+    }
+    vector operator+(const vector&);
+};
+vector vector::operator+(const vector& parameter)
+{
+    vector temp;
+    temp.a=a+ parameter.a;
+    temp.b=b+ parameter.b;
+    return temp;
+}
+int main()
+{
+    vector p(1,1);
+    vector q(1,1);
+    vector z;
+    z=p+q;
+    cout<<"("<<z.a<<","<<z.b<<")"<<endl;
+    return 0;
+}

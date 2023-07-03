@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+float percentage(float,float);
+void main()
+{
+    float a,b;
+    printf("enter:");
+    scanf("%f",&a);
+    printf("enter:");
+    scanf("%f",&b);
+    float (*p)(float,float);
+    p=&percentage;
+    printf("%f",p(a,b));
+}
+float percentage(float x,float y)
+{
+    float z=x/y*100;
+    return z;
+}

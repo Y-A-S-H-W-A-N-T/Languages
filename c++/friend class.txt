@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+class first
+{
+friend class second;
+private:
+    int pvt=1;
+};
+class second
+{
+public:
+    int fun(first a)
+    {
+        a.pvt=20;
+        cout<<a.pvt<<endl;
+    }
+};
+int main()
+{
+    first x;
+    second y;
+    y.fun(x);
+    return 0;
+}

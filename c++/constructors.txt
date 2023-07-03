@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class car{
+public:
+    car(int x)
+    {
+        setnumber(x);
+    }
+    void setnumber(int x)
+    {
+        a=x;
+    }
+    int getnumber()
+    {
+        return a;
+    }
+
+private:
+    int a;
+};
+int main()
+{
+    car c(244);
+    car z(233);
+    cout<<c.getnumber()<<endl;
+    cout<<z.getnumber()<<endl;
+    return 0;
+}

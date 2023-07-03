@@ -1,0 +1,6 @@
+function change(){
+    var variable=document.getElementById("main");
+    var change2=variable.lastElementChild;
+    var change2=variable.childNodes[5];
+    change2.style.color="red";
+}

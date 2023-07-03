@@ -1,0 +1,9 @@
+var o=20;
+function test(){
+    var a=10;
+    document.write(a); //printed
+    document.write(o); //printed
+}
+test();
+document.write(a); //not printed
+//printed if var is not declared

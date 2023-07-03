@@ -1,0 +1,8 @@
+var num1=10.7;
+var num2=10;
+var sum=Math.round(num1)+num2;
+var sum=Math.ceil(num1)+num2;
+var sum=Math.floor(num1)+num2;
+document.write(sum);
+var num3=25;
+document.write(Math.sqrt(num3));

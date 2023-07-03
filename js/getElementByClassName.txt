@@ -1,0 +1,7 @@
+function clicked(){
+    var word=document.getElementsByClassName("paragraph");
+    i=0;
+    for (i=0;i<=word.length;i++){
+        var change=word[i].style.color = "yellow";
+    }
+}

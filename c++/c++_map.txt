@@ -1,0 +1,25 @@
+#include<iostream>
+#include<map>
+using namespace std;
+int main()
+{
+   map<int,string> map_var;
+   map_var[1]="yashwant";
+   map_var[2]="yashwant";
+   map_var[3]="yashwant";
+   map_var[4]="yashwant";
+   map_var[5]="yashwant";
+   map_var.insert(pair<int,string>(6,"yash"));
+   map_var.insert(pair<int,string>(7,"yash"));
+   map_var.insert(pair<int,string>(8,"yash"));
+   cout<<"map size = " <<map_var.size()<<endl;
+   cout<<"value = "<<map_var[2]<<endl;
+   for(map<int,string>::iterator a=map_var.begin();a!=map_var.end();a++)
+   {
+       cout<<a->first<<" = "<<a->second<<endl;
+   }
+   map_var.clear();
+   map_var.size();
+
+   return 0;
+}

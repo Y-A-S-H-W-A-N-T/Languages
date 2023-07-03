@@ -1,0 +1,30 @@
+function clicked(){
+    var change=document.getElementsByTagName("p");
+    var changetext=change[0].style.color="blue";
+    var changetext=change[1].style.color="blue";
+    var changetext=change[2].style.color="blue";
+    var changetext=change[3].style.color="blue";
+    var changetext=change[4].style.color="blue";
+    var changetext=change[5].style.color="blue";
+}
+
+|||| HTML ||||
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HOME PAGE</title>
+    <script src="javascript.js">
+
+    </script>
+</head>
+<body>
+    <p id="paragraph">HELLO</p>
+    <p id="paragraph">HELLO</p>
+    <p id="paragraph">HELLO</p>
+    <p id="paragraph">HELLO</p>
+    <p id="paragraph">HELLO</p>
+    <p id="paragraph">HELLO</p>
+    <button onclick="clicked()">CLICK</button>
+</body>
+</html>

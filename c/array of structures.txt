@@ -1,0 +1,23 @@
+#include <stdio.h>
+struct info
+{
+    int a;
+    char b[50];
+};
+void main()
+{
+    struct info s[3];
+    int i;
+    for(i=0;i<3;i++)
+    {
+        printf("enter the number and name of the %d person--",i+1);
+        printf("\n");
+        scanf("%d%s",&s[i].a,&s[i].b);
+    }
+    printf("\n");
+    for(i=0;i<3;i++)
+    {
+        printf("  the number is:%d & the name is:%s\n",s[i].a,s[i].b);
+    }
+
+}

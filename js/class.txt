@@ -1,0 +1,12 @@
+function student(CLASS,NAME,SECTION){
+    this.class=CLASS;
+    this.name=NAME;
+    this.section=SECTION;
+}
+
+var a=new student(10,"yashwant","A");
+var b=new student(9,"davuluri","B");
+
+function clicked(){
+    document.getElementById("main").innerHTML="CLASS "+ a.class + ", section" + a.section + ", with  name " + a.name;
+}

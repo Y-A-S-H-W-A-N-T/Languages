@@ -1,0 +1,14 @@
+#include<iostream>
+#include<exception>
+using namespace std;
+template<class mydata,class data>
+mydata mul(mydata a,data b)
+{
+    return (a>b?a:b);
+}
+int main()
+{
+    int x=101;
+    float y=23.9;
+    cout<<mul(x,y)<<endl;
+}

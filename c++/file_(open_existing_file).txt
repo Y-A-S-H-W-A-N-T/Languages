@@ -1,0 +1,23 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+   string b;
+   ifstream a("create.txt");
+   if (a.is_open())
+   {
+        while(getline(a,b))
+        {
+            cout<<b<<"\n";
+        }
+        a.close();
+    }
+    else
+    {
+        cout<<"error";
+    }
+
+   cin.get();
+   return 0;
+}

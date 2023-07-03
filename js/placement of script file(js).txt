@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HOME PAGE</title>
+    <link rel="stylesheet" type="text/css" href="cssfile.css">
+</head>
+<body>
+    
+    <form id="form" action="result.html" onSubmit=" return error();" method="post">
+        <div id="row">
+            <label for="name">NAME : </label>
+            <input type="text" id="name"><br><br><br>
+        </div>
+        <div id="row">
+            <label for="address">address : </label>
+            <input type="text" id="address"><br><br><br>
+        </div>
+        <div id="row">
+            <label for="number">PHONE NO : </label>
+            <input type="text" id="number"><br><br><br>
+        </div>
+    
+        <input type="submit" name="">
+    </form> 
+<script src="javascript.js"></script>
+</body>
+</html>
+
+
+
+in the end of the html code instead of placing it in the head tag

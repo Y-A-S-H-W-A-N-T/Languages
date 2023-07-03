@@ -1,0 +1,10 @@
+var car={
+size:80,
+color:"red",
+fuel:"petrol",
+
+};
+
+document.write(car.size);
+document.write(car.color);
+document.write(car.fuel);

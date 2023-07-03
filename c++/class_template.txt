@@ -1,0 +1,29 @@
+#include<iostream>
+#include<exception>
+using namespace std;
+template<class t>
+class name
+{
+public:
+    t a,b;
+    name(t x,t y)
+    {
+        a=x;
+        b=y;
+    }
+    t highest();
+};
+template<class t>
+t name<t>::highest()
+{
+    return (a>b?a:b);
+}
+main()
+{
+   float x,y;
+   cin>>x;
+   cin>>y;
+   name<float> obj(x,y);
+   cout<<obj.highest();
+   return 0;
+}

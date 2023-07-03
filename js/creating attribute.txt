@@ -1,0 +1,52 @@
+function method(){
+    var heading=document.createElement("h1");
+    var head=document.createTextNode(" new paragraph ");
+    var main=document.getElementById("main");
+    main.appendChild(heading);
+    heading.appendChild(head);
+
+    var newelement=document.createElement("p");
+    main.appendChild(newelement);
+    var text=document.createTextNode("00000000000000000 afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da");
+    newelement.appendChild(text);
+
+    var create=document.createAttribute("id");
+    create.value="color";
+    newelement.setAttributeNode(create);
+}
+
+function remove(){
+    var head=document.getElementsByTagName("h1")[0];
+    var main=head.parentNode;
+    main.removeChild(head);
+
+    var para=document.getElementsByTagName("p")[2];
+    main.removeChild(para);
+}
+
+|||| HTML ||||
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HOME PAGE</title>
+    <script src="javascript.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="cssfile.css">
+</head>
+<body>
+    <div id="main">
+        <p>aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk </p>
+        <p> aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk aasdafagasdg afafafafa afdasd ardfa awdawd a awed a ad ad ad ad ada da ad addadawtfwegtrhgdfhftgj dfj gkfjsjtdjk </p>
+    </div>
+    
+    <button onclick="method()">CLICK</button>
+    <button onclick="remove()">DELETE</button>
+</body>
+</html>
+
+|||| CSS ||||
+
+#color{
+    color: red;
+}

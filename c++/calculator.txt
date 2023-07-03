@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    char d;
+    cout<<"enter number:";
+    cin>>a;
+    cout<<"enter operation:";
+    cin>>d;
+    cout<<"enter second:";
+    cin>>b;
+    if (d=='+')
+    {
+            cout<<"final output="<<a+b<<endl;
+    }
+    if (d=='-')
+    {
+        cout<<"final output="<<a-b<<endl;
+    }
+    if (d=='/')
+    {
+        cout<<"final output="<<a/b<<endl;
+    }
+    if (d=='*')
+    {
+        cout<<"final output="<<a*b<<endl;
+    }
+
+}

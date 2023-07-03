@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float n,cube,volume,surface;
+    float a=3.14,v=1.33;
+    printf("enter a number:");
+    scanf("%f",&n);
+    cube=n*n*n;
+    volume=v*a*cube;
+    printf("\t\t\t\t\t volume :%f\n",volume);
+    surface=4*a*n*n;
+    printf("\t\t\t\t\t surface area:%f",surface);
+}
+

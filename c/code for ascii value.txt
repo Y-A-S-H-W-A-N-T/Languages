@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    char  a;
+    scanf("%c",&a);
+    printf("the symbol is :%c\n",a);
+    printf("the ascii value is:%d",a);
+}

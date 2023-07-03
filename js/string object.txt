@@ -1,0 +1,4 @@
+var word="hello i am yashwant"
+word=word.replace('hello','hi');
+word=word.toUpperCase();
+document.write(word);

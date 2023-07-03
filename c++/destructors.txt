@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int z;
+class car{
+public:
+    car()
+    {
+        cout<<"hello"<<endl;
+    }
+    //destructor is called after the scope is over
+    ~car()
+    {
+        cout<<"z= "<<z<<endl;
+    }
+
+};
+int main()
+{
+    car a;
+    cout<<"enter a number:";
+    cin>>z;
+    //end point of scope
+    return 0;
+}

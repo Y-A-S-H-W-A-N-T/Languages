@@ -1,0 +1,13 @@
+#include <stdio.h>
+struct info
+{
+    int number;
+    char name[50];
+    float salary;
+};
+void main()
+{
+    struct info a={01,"Yashwant",100000};
+    printf("Serial number :%d\t\t\tPerson Name :%s\t\t\tPerson salary :%f",a.number,a.name,a.salary);
+}
+s

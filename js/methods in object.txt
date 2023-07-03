@@ -1,0 +1,30 @@
+var car={
+size:80,
+color:"red",
+fuel:"petrol",
+speak:function(){
+    document.write("bought");
+},
+working:false,
+quite:function(){
+    document.write("blocked");
+}
+};
+
+car.size=car.size+10;
+document.write(car.size);
+
+if (car.working==true){
+    car.speak();
+}
+else{
+    car.quite();
+}
+car.working=true;
+
+if (car.working==true){
+    car.speak();
+}
+else{
+    car.quite();
+}

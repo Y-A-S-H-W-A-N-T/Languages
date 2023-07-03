@@ -1,0 +1,6 @@
+var today=new Date();
+var tomorrow=today.getFullYear();
+var tomorrow=today.getTime();
+document.write(tomorrow);
+
+// var today= new Date(); "to import an object". 

@@ -1,0 +1,13 @@
+#include <stdio.h>
+struct info
+{
+    int no;
+    char name[20];
+    float salary;
+} ;
+void main()
+{
+    struct info a;
+    printf("size--%d",sizeof(struct info));
+}
+

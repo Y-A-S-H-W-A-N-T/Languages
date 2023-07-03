@@ -1,0 +1,9 @@
+function write () {
+    alert("hello");
+}
+function hello(){
+    document.write("SPIDY");
+}
+
+hello();
+write ();

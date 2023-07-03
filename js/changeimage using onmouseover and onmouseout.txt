@@ -1,0 +1,6 @@
+function picture1(){
+var change= document.getElementById("image").src="yoga.jpg";
+}
+function picture2(){
+    var change= document.getElementById("image").src="image.jpg";
+}

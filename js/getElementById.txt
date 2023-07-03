@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> HOME PAGE</title>
+    <script src="javascript.js">
+
+    </script>
+</head>
+<body>
+    <p id="paragraph">HELLO</p>
+    <button onclick="clicked()">CLICK</button>
+</body>
+</html>
+
+|||| JS |||||
+
+function clicked(){
+    var take=document.getElementById("paragraph").style.color="red";
+    var take=document.getElementById("paragraph").style.backgroundColor="blue";
+}

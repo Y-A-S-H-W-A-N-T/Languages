@@ -1,0 +1,6 @@
+function pass(a,b){
+    document.write(a+b);
+}
+pass(10,2);
+// in pass by value a copy of the value is passed.
+// in pass by reference, address of the value is passed,thus avoiding double space for one value.

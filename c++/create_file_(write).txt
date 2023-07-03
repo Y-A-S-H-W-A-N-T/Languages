@@ -1,0 +1,20 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+   ofstream a;
+   a.open("create.txt");
+   if(a.is_open())
+   {
+        a<<"hello";
+        a.close();
+   }
+   else
+   {
+       cout<<"error";
+   }
+   
+   cin.get();
+   return 0;
+}

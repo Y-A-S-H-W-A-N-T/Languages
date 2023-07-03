@@ -1,0 +1,4 @@
+function clicked(){
+    var word=document.getElementsByClassName("paragraph");
+    var change=word[0].innerHTML=" new word";
+}
